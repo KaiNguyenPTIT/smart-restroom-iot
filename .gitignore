@@ -1,0 +1,21 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+*.bin
+*.elf
+*.map
+
+# Secrets — token ThingsBoard truyền qua build flag, KHÔNG commit
+secrets.h
+.env
+.env.*
+
+# Báo cáo gốc / ảnh chụp nặng (bản .docx trong docs/ là bản đã chọn để chia sẻ)
+~$*
+*.tmp
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
